@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #00194A;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    color: #00194A;
+    opacity: 0.8;
+}
+
+.container {
+    width: 1175px;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    background: #FF0043;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    color: #FFFFFF;
+    padding: 15px 20px;
+}
+
+/*Header */
+.header {
+    padding: 50px;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {}
+
+.header__logo::before {
+    content: '';
+    background: url('../img/Logo.svg') no-repeat center center / cover;
+    display: block;
+    width: 92px;
+    height: 20px;
+}
+
+.header__btn {}
+
+/* Intro */
+.intro {
+    padding: 50px;
+}
+
+.intro__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.intro__block {}
+
+.intro__title {
+    font-size: 60px;
+    line-height: 85px;
+    margin-bottom: 20px;
+}
+
+.intro__text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.intro__btn {}
+
+.intro__img {
+    width: 655px;
+    height: 604px;
+}
+
+.intro__img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* OS */
+.os {
+    padding: 80px 0px;
+}
+
+.os__wrap {}
+
+.os__row {
+    margin: 0 -15px;
+    display: flex;
+}
+
+.os__column {
+    padding: 0 15px;
+}
+
+.os__item {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+
+.os__icon {
+    margin-bottom: 20px;
+}
+
+.os__title {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.os__text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.os__link {
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.5;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.os__link::after {
+    content: '';
+    background: url('../img/path.svg');
+    display: block;
+    width: 21px;
+    height: 20px;
+    margin: 0 0 0 auto;
+}
+
+/* simple */
+.simple {
+    padding-bottom: 50px;
+}
+
+.simple__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.simple__img {
+    margin-left: -93px;
+}
+
+.simple__block {
+    max-width: 470px;
+}
+
+.simple__title {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.simple__text {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* share */
+.sharing {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sharing__wrap {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.sharing__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sharing__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sharing__column {
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 260px;
+    height: 249px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.sharing__item {}
+
+.sharing__icon {
+    padding: 30px;
+}
+
+.sharing__row__2{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sharing__simple__2 {
+    margin-right: 100px;
+    width: 500px;
+}
+.sh__title{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.sh__text{
+    max-width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.foot__back{
+    margin-top: 100px;
+    width: 1139px;
+    height: 346px;
+    left: 150px;
+    top: 3394px;
+    background: #00194A;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.footer__title{
+    margin-top: 50px;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer__text{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 580px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer__block{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__btn{
+    margin-top: 50px;
+    padding: 20px 50px;
+}
+.contacts__block{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title__telegram{
+    margin-left: 50px;
+}
